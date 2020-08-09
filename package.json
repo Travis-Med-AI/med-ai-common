@@ -2,10 +2,11 @@
   "name": "med-ai-common",
   "version": "1.0.0",
   "description": "A common library for med ai",
-  "main": "lib/index.d.ts",
   "directories": {
     "lib": "lib"
   },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",

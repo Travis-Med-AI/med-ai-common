@@ -6,9 +6,12 @@ import { Modality } from "../enums/modality.enum";
 export interface ModelViewModel {
     id?:number;
     image: string;
+    displayName: string;
     input: StudyType;
     inputType: ModelInputs;
     output: ModelOutputs;
     hasImageOutput: boolean;
     modality: Modality;
+    pulled: boolean;
+    failed: boolean;
 }
