@@ -1,6 +1,6 @@
 {
   "name": "med-ai-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common library for med ai",
   "directories": {
     "lib": "lib"
