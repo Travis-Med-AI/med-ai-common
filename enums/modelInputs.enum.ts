@@ -7,7 +7,7 @@ export enum ModelInputs {
 
 export const docModelInputs: DocEnum = {
   typeString: "ModelInputs",
-  description: "TODO",
+  description: "The file format that the model takes as an input.",
   values: [
     {
       enum: ModelInputs.DICOM,
