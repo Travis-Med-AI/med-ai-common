@@ -17,13 +17,13 @@ export const docParams: Array<DocParameter> = [
   {
     name: 'tag',
     typeString: 'String',
-    description: 'TODO',
+    description: 'The tag name of your docker image repository',
     required: true
   },
   {
     name: 'displayName',
     typeString: 'String',
-    description: 'TODO',
+    description: 'The name of your model that will be displayed in travis-med-ai.',
     required: true
   },
   {
@@ -44,20 +44,20 @@ export const docParams: Array<DocParameter> = [
     name: 'inputType',
     typeString: 'ModelInputs',
     type: ModelInputs,
-    description: 'TODO',
+    description: 'The image file format that your model accepts.',
     required: true
   },
   {
-    name: 'inputType',
+    name: 'outputType',
     typeString: 'ModelOutputs',
     type: ModelOutputs,
-    description: 'TODO',
+    description: 'The output format of your file.',
     required: true
   },
   {
     name: 'hasImageOutput',
     typeString: 'boolean',
-    description: 'TODO',
+    description: 'Specifies whether your model outputs a masked image after finishing image processing.',
     required: true
   }
 ]
