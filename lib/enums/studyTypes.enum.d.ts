@@ -1,3 +1,4 @@
+import { DocEnum } from "../interfaces/documentation";
 export declare enum StudyType {
     abdXray = "Abd_Xray",
     frontalCXR = "Frontal_CXR",
@@ -7,3 +8,4 @@ export declare enum StudyType {
     headCT = "Head_CT",
     CT = "CT"
 }
+export declare const docStudyType: DocEnum;
