@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm build
+      - run: npm run build
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
         with:
