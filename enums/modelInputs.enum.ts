@@ -11,11 +11,11 @@ export const docModelInputs: DocEnum = {
   values: [
     {
       enum: ModelInputs.DICOM,
-      description: "TODO",
+      description: ".dicom file format.",
     },
     {
       enum: ModelInputs.PNG,
-      description: "TODO",
+      description: ".png file format.",
     },
   ],
 };
