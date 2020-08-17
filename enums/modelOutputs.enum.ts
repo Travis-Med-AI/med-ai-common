@@ -8,7 +8,7 @@ export enum ModelOutputs {
 
 export const docModelOutputs: DocEnum = {
   typeString: "ModelOutputs",
-  description: "TODO",
+  description: "The data format that should be expected as an output from the scan model.",
   values: [
     {
       enum: ModelOutputs.classProbabilities,
