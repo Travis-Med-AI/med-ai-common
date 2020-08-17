@@ -7,15 +7,15 @@ export enum Modality {
 
 export const docModality: DocEnum = {
   typeString: "Modality",
-  description: "TODO",
+  description: "Describes the imaging modality that the model accepts.",
   values: [
     {
       enum: Modality.CT,
-      description: "TODO",
+      description: "CT Scan",
     },
     {
       enum: Modality.C_XRAY,
-      description: "TODO",
+      description: "Chest XRAY",
     },
   ],
 };
