@@ -11,7 +11,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm build
+      - run: npm run build
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Added Build Changes"
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
         with:
