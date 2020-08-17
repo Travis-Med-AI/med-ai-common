@@ -16,31 +16,31 @@ export const docStudyType: DocEnum = {
     values: [
       {
         enum: StudyType.CT,
-        description: 'TODO'
+        description: 'CT Scan'
       },
       {
         enum: StudyType.abdXray,
-        description: 'TODO'
+        description: 'Abdominal Xray'
       },
       {
         enum: StudyType.dicom,
-        description: 'TODO'
+        description: 'DICOM'
       },
       {
         enum: StudyType.frontalCXR,
-        description: 'TODO'
+        description: 'Frontal Chest Xray'
       },
       {
         enum: StudyType.headCT,
-        description: 'TODO'
+        description: 'Head CT Scan'
       },
       {
         enum: StudyType.lateralCXR,
-        description: 'TODO'
+        description: 'Lateral Chest Xray'
       },
       {
         enum: StudyType.mskCXR,
-        description: 'TODO'
+        description: 'Musculoskeletal Chest Xray'
       },
     ]
   }
