@@ -5,3 +5,5 @@ export * from './modelInputs.enum';
 export * from './modelOutputs.enum';
 export * from './roles.enum';
 export * from './studyTypes.enum';
+export * from './notifications.enum';
+export * from './sockets.enum';
