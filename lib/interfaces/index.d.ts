@@ -14,3 +14,4 @@ export * from './study.vm';
 export * from './pagedResponse';
 export * from './classifier.vm';
 export * from './notification';
+export * from './documentation';
