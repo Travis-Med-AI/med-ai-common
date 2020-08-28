@@ -3,5 +3,6 @@ export enum Sockets {
     allNotifications = 'all_notifications',
     jobs = 'jobs',
     evals = 'evals',
-    studies = 'studies'
+    studies = 'studies',
+    modelLog = 'model_log'
 }

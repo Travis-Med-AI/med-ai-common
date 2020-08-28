@@ -5,4 +5,6 @@ export interface StudyEvalVM {
     status: EvaluationStatus;
     imgOutputPath: string;
     lastUpdate: number;
+    logs?: string[];
+    orthancId: string;
 }
