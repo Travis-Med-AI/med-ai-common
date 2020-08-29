@@ -10,4 +10,5 @@ export interface StudyEvalVM {
     lastUpdate: number;
     logs?: string[];
     orthancId: string;
+    study: StudyViewModel
 }
