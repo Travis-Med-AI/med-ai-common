@@ -4,4 +4,5 @@ export enum Notifications {
     studyReady = 'study_ready',
     evalFailed = 'eval_failed',
     connected = 'connected',
+    evalStarted = 'eval_started',
 }

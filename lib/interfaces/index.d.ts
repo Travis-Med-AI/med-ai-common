@@ -16,3 +16,4 @@ export * from './classifier.vm';
 export * from './notification';
 export * from './documentation';
 export * from './modelLog';
+export * from './modelOutput';

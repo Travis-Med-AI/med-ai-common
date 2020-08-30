@@ -3,5 +3,6 @@ export declare enum Notifications {
     modelReady = "model_ready",
     studyReady = "study_ready",
     evalFailed = "eval_failed",
-    connected = "connected"
+    connected = "connected",
+    evalStarted = "eval_started"
 }
