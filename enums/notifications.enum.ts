@@ -5,4 +5,8 @@ export enum Notifications {
     evalFailed = 'eval_failed',
     connected = 'connected',
     evalStarted = 'eval_started',
+    experimentStarted = 'experiment_started',
+    experimentUpdated = 'experiment_updated',
+    experimentFailed = 'experiment_failed',
+    experimentFinished = 'experiment_finished'
 }
