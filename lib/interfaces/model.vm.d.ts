@@ -11,6 +11,8 @@ export interface ModelViewModel {
     output: ModelOutputs;
     hasImageOutput: boolean;
     modality: Modality;
+    quickstart: boolean;
+    running: boolean;
     pulled: boolean;
     failed: boolean;
 }
