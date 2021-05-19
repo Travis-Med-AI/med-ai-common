@@ -7,6 +7,10 @@ export interface StudyViewModel {
 
     patientId: string;
 
+    studyUid: string;
+    
+    seriesUid: string;
+
     type: StudyType;
 
     modality: string;
