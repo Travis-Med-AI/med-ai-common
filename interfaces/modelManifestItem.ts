@@ -12,6 +12,7 @@ export interface ModelManifestItem {
     inputType: ModelInputs;
     output: ModelOutputs;
     hasImageOutput: boolean;
+    outputKeys: string[]
 }
 export const docParams: Array<DocParameter> = [
   {
