@@ -15,5 +15,6 @@ export interface ModelViewModel {
     quickstart: boolean;
     running: boolean;
     pulled: boolean;
+    outputKeys: string[]
     failed: boolean;
 }
