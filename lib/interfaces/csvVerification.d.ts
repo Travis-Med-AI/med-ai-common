@@ -3,5 +3,5 @@ export interface csvVerification {
     keysFound: {
         key: string;
         count: number;
-    };
+    }[];
 }
