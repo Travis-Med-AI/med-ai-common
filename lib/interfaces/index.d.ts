@@ -19,3 +19,4 @@ export * from './modelLog';
 export * from './modelOutput';
 export * from './experiment.vm';
 export * from './csvVerification';
+export * from './experimentStats.vm';
