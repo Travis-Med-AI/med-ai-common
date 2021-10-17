@@ -1,8 +1,6 @@
 export interface ExperimentStats {
     total: number;
     accuracy: number;
-    fpr: number;
-    tpr: number;
     sensitivity: number;
     specificity: number;
     ppv: number;
