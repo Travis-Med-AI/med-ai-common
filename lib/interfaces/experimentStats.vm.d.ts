@@ -8,7 +8,7 @@ export interface ExperimentStats {
     ppv: number;
     npv: number;
 }
-export interface ExperimentStatusViewModel {
+export interface ExperimentStatsViewModel {
     experimentId: number;
     keys: {
         [key: string]: ExperimentStats;
