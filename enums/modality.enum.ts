@@ -3,6 +3,8 @@ import { DocEnum } from "../interfaces/documentation";
 export enum Modality {
   CT = "CT",
   C_XRAY = "CR",
+  XRAY = "DX",
+  MRI = "MR"
 }
 
 export const docModality: DocEnum = {
