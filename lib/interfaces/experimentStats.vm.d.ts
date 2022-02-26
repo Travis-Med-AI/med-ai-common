@@ -5,6 +5,10 @@ export interface ExperimentStats {
     specificity: number;
     ppv: number;
     npv: number;
+    tp: number;
+    fp: number;
+    tn: number;
+    fn: number;
 }
 export interface ExperimentStatsViewModel {
     experimentId: number;
