@@ -1,4 +1,5 @@
 import { EvaluationStatus } from "../enums/evaluationStatus.enum";
+import { ModelViewModel } from "./model.vm";
 import { StudyViewModel } from "./study.vm";
 import { ModelOutput } from "./modelOutput";
 export interface StudyEvalVM {
@@ -10,4 +11,5 @@ export interface StudyEvalVM {
     logs?: string[];
     orthancId: string;
     study: StudyViewModel;
+    model: ModelViewModel;
 }
