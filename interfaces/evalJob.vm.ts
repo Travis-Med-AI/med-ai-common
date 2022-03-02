@@ -5,4 +5,5 @@ export interface EvalJobViewModel {
     id: number
     model: ModelViewModel
     running: boolean
+    cpu: boolean
 }
