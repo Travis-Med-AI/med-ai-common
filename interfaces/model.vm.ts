@@ -13,8 +13,7 @@ export interface ModelViewModel {
     hasImageOutput: boolean;
     modality: Modality;
     quickstart: boolean;
-    running: boolean;
     pulled: boolean;
     outputKeys: string[]
-    failed: boolean;
+    failedPull: boolean
 }
