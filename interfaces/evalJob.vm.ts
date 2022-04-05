@@ -7,5 +7,5 @@ export interface EvalJobViewModel {
     running: boolean
     cpu: boolean
     replicas: number
-    delete_orthanc: boolean
+    deleteOrthanc: boolean
 }
